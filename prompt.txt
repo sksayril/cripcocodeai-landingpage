@@ -1,0 +1,125 @@
+You are a senior full-stack web developer and brand strategist.
+
+🎯 Objective:
+Create a modern, responsive IT-Company Portfolio Website for “Cripcocode Tech” (replaceable with any company name).  
+The website must focus on **SEO, performance, and conversion**. It should include:
+
+---
+
+### 🌍 STRUCTURE (Pages)
+1. **Landing Page (/)**  
+   - Hero section: animated background (particles or gradient motion), strong CTA (“Get a Free Consultation”)  
+   - Animated company logo and tagline (e.g., “Innovating Beyond Code ⚡”)  
+   - Tech-stack slider (React, Angular, Node.js, Next.js, Flutter, AWS, MongoDB, Prisma, etc.)  
+   - Services section: Website Dev, App Dev, Digital Marketing, AI Solutions  
+   - Clients carousel with logos (auto-scroll + grayscale hover-color effect)  
+   - Why Choose Us section with animated icons  
+   - Testimonials section  
+   - Footer with sitemap, contact info, and Google Map embed
+
+2. **About Us Page**  
+   - Company mission, vision, team images  
+   - Timeline animation (AOS or Framer Motion)  
+
+3. **Services Page**  
+   - Cards for each service with hover effect and Lottie icons  
+   - SEO-friendly URLs like `/services/web-development`  
+
+4. **Tech Stacks Page**  
+   - Interactive grid showing tools with tooltips and logos  
+   - Each tech links to internal blog explaining usage  
+
+5. **Clients Page**  
+   - Rotating logo wall + short success stories  
+
+6. **Blog Page**  
+   - SEO-optimized blog list with tags, categories, and search bar  
+   - Each blog should include:
+     - Meta title, meta description  
+     - Schema markup (`Article`, `BreadcrumbList`)  
+     - OpenGraph tags  
+     - Image alt text  
+     - Internal linking to services and tech pages  
+
+7. **Contact Page**  
+   - Dynamic contact form (Node.js/Express API)  
+   - Google reCAPTCHA v3  
+   - Address, phone, email, and embedded map  
+
+---
+
+### ⚙️ TECHNICAL REQUIREMENTS
+- Framework: **Next.js 15 + TypeScript + Tailwind CSS + Framer Motion**
+- SEO: 
+  - Next.js metadata API (`generateMetadata`)
+  - sitemap.xml & robots.txt  
+  - JSON-LD structured data  
+  - Optimized headings (H1–H6), semantic HTML  
+  - Blog slugs with canonical URLs  
+  - Lazy-loaded images with `next/image`  
+- Animations: Framer Motion, GSAP, or Lottie  
+- Performance: Lighthouse score > 90  
+- Schema: Add Organization, Website, and Blog schema for rich results  
+- Analytics: Integrate Google Analytics 4 + Google Search Console tags  
+- Deployment ready on Vercel / Nginx Ubuntu server
+
+---
+
+### 🪄 DESIGN STYLE
+- Minimal white background with blue & violet gradients  
+- Rounded 2xl cards, soft shadows, floating elements  
+- Use Tailwind & shadcn UI for consistency  
+- Hero image should use a subtle 3D/AI/tech vibe  
+- Buttons with gradient hover & icon transitions  
+
+---
+
+### 🧩 BLOG SEO REQUIREMENTS
+Each post automatically generates:
+```html
+<meta name="title" content="..." />
+<meta name="description" content="..." />
+<meta property="og:title" content="..." />
+<meta property="og:description" content="..." />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="..." />
+<meta name="keywords" content="web development, app development, digital marketing, IT company, Cripcocode Tech" />
+Include slug-based canonical tags and a JSON-LD Article schema with author, datePublished, headline, publisher.
+
+🧰 OPTIONAL EXTRAS
+Floating WhatsApp & call buttons
+
+Dark/light mode toggle
+
+Newsletter subscription (Mailchimp API)
+
+Animated counter (clients served, projects delivered)
+
+Case Study section with images and CTA
+
+🧩 Deliverables:
+
+Next.js project structure
+
+Complete Tailwind theme configuration
+
+SEO config file
+
+Sample blog content with optimized metadata
+
+JSON schemas for Company & Blog
+
+Animation snippets for hero section & client slider
+
+Deployment instructions for Nginx + SSL (Linux)
+
+yaml
+Copy code
+
+---
+
+Would you like me to **generate this project’s folder structure and base code (Next.js + Tailwind + Framer Motion)** right now?  
+I can scaffold the files and include:  
+- `app/page.tsx` (hero + services + clients)  
+- `next-seo.config.ts`  
+- `components/AnimatedLogo.tsx`, `ClientSlider.tsx`, `BlogCard.tsx`, etc.
