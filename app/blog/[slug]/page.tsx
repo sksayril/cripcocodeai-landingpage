@@ -7,7 +7,7 @@ import { getBlogPost, getAllBlogPosts } from '@/lib/blog-data'
 import { generateBlogSEO, generateArticleSchema } from '@/lib/seo'
 
 interface Props {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
@@ -18,7 +18,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = getBlogPost(params.slug)
+  const { slug } = await params
+  const post = getBlogPost(slug)
 
   if (!post) {
     return {
@@ -37,8 +38,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   })
 }
 
-export default function BlogPostPage({ params }: Props) {
-  const post = getBlogPost(params.slug)
+export default async function BlogPostPage({ params }: Props) {
+  const { slug } = await params
+  const post = getBlogPost(slug)
 
   if (!post) {
     notFound()

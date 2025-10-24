@@ -13,16 +13,15 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
   const [currentSection, setCurrentSection] = useState('')
   const [isComplete, setIsComplete] = useState(false)
 
-  const sections = [
-    'Initializing...',
-    'Loading Components...',
-    'Preparing Animations...',
-    'Optimizing Performance...',
-    'Finalizing Experience...',
-    'Ready!'
-  ]
-
   useEffect(() => {
+    const sections = [
+      'Initializing...',
+      'Loading Components...',
+      'Preparing Animations...',
+      'Optimizing Performance...',
+      'Finalizing Experience...',
+      'Ready!'
+    ]
     const interval = setInterval(() => {
       setProgress(prev => {
         if (prev >= 100) {
