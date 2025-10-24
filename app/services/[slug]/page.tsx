@@ -396,7 +396,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
       <section className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
-            What You'll Receive
+            What You&apos;ll Receive
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {service.deliverables.map((item) => (
@@ -417,7 +417,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
               Ready to Get Started?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Let's discuss your project and create something amazing together
+              Let&apos;s discuss your project and create something amazing together
             </p>
             <Link
               href="/contact"

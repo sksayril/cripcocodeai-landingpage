@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const siteConfig = {
-  name: 'Cripcocode',
+  name: 'Cripcocode Technologies',
   description: 'Leading IT company specializing in Web Development, App Development, Digital Marketing, and AI Solutions. Innovating Beyond Code.',
   url: 'https://cripcocode.com',
   ogImage: 'https://cripcocode.com/og-image.jpg',

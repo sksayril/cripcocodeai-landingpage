@@ -279,7 +279,7 @@ export default function Home() {
                         What Our <span className="text-gradient">Clients Say</span>
                       </h2>
                       <p className="text-xl text-gray-600 dark:text-gray-400">
-                        Don't just take our word for it
+                        Don&apos;t just take our word for it
                       </p>
                     </div>
                   </SectionLoader>
@@ -307,7 +307,7 @@ export default function Home() {
                         Ready to Start Your Project?
                       </h2>
                       <p className="text-xl mb-8 opacity-90">
-                        Let's build something amazing together. Get in touch with us today!
+                        Let&apos;s build something amazing together. Get in touch with us today!
                       </p>
                       <Link
                         href="/contact"

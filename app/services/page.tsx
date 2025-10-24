@@ -88,7 +88,7 @@ export default function ServicesPage() {
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
               Comprehensive IT solutions designed to help your business thrive in the digital age. 
-              From web development to AI solutions, we've got you covered.
+              From web development to AI solutions, we&apos;ve got you covered.
             </p>
           </motion.div>
         </div>
@@ -256,7 +256,7 @@ export default function ServicesPage() {
               Ready to Get Started?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Let's discuss how we can help bring your project to life
+              Let&apos;s discuss how we can help bring your project to life
             </p>
             <Link
               href="/contact"

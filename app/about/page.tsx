@@ -128,7 +128,7 @@ export default function AboutPage() {
             <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed mb-8">
               We are a team of passionate developers, designers, and innovators dedicated to 
               transforming businesses through cutting-edge technology solutions. Since 2018, 
-              we've been helping companies of all sizes achieve their digital transformation goals.
+              we&apos;ve been helping companies of all sizes achieve their digital transformation goals.
             </p>
             
             {/* Company Information */}
@@ -190,7 +190,7 @@ export default function AboutPage() {
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                 To empower businesses worldwide with innovative technology solutions that drive 
                 growth, efficiency, and competitive advantage. We strive to be more than just 
-                a service provider – we aim to be a trusted partner in our clients' success.
+                a service provider – we aim to be a trusted partner in our clients&apos; success.
               </p>
             </motion.div>
 
@@ -208,7 +208,7 @@ export default function AboutPage() {
                 Our Vision
               </h2>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                To be the world's most trusted technology partner, recognized for our innovation, 
+                To be the world&apos;s most trusted technology partner, recognized for our innovation, 
                 quality, and commitment to client success. We envision a future where businesses 
                 of all sizes can leverage cutting-edge technology to achieve extraordinary results.
               </p>
@@ -375,7 +375,7 @@ export default function AboutPage() {
               Want to Join Our Team?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              We're always looking for talented individuals to join our growing team
+              We&apos;re always looking for talented individuals to join our growing team
             </p>
             <a
               href="mailto:info.cripcocode@gmail.com"

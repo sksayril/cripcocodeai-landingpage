@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
 import AnimatedLogo from '@/components/AnimatedLogo'
@@ -53,13 +54,15 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <img 
+            <Image 
               src="/logo.png" 
               alt="Cripcocode Logo" 
+              width={64}
+              height={64}
               className="w-16 h-16 rounded-lg"
             />
             <span className="text-xl font-bold text-gradient">
-              Cripcocode
+              Cripcocode Technologies
             </span>
           </Link>
 

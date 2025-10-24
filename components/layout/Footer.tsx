@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { FiMail, FiPhone, FiMapPin, FiFileText, FiTwitter, FiLinkedin, FiGithub, FiFacebook } from 'react-icons/fi'
 import AnimatedLogo from '@/components/AnimatedLogo'
 
@@ -40,13 +41,15 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img 
+              <Image 
                 src="/logo.png" 
                 alt="Cripcocode Logo" 
+                width={64}
+                height={64}
                 className="w-16 h-16 rounded-lg"
               />
               <span className="text-xl font-bold text-white">
-                Cripcocode
+                Cripcocode Technologies
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -153,7 +156,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Cripcocode. All rights reserved.
+              © {new Date().getFullYear()} Cripcocode Technologies. All rights reserved.
             </p>
 
             {/* Social Links */}

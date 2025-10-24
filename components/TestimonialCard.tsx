@@ -39,7 +39,7 @@ export default function TestimonialCard({
 
       {/* Content */}
       <p className="text-gray-600 dark:text-gray-300 mb-6 italic leading-relaxed">
-        "{content}"
+        &ldquo;{content}&rdquo;
       </p>
 
       {/* Author */}

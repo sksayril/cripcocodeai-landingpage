@@ -113,7 +113,7 @@ export default function ClientsPage() {
               Our <span className="text-gradient">Clients</span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-              We're proud to have helped over 200+ companies achieve their digital transformation 
+              We&apos;re proud to have helped over 200+ companies achieve their digital transformation 
               goals. Here are some of our success stories.
             </p>
           </motion.div>
@@ -277,7 +277,7 @@ export default function ClientsPage() {
 
                     {/* Testimonial */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-                      <p className="text-lg italic mb-4">"{study.testimonial.text}"</p>
+                      <p className="text-lg italic mb-4">&ldquo;{study.testimonial.text}&rdquo;</p>
                       <div>
                         <p className="font-semibold">{study.testimonial.author}</p>
                         <p className="text-sm opacity-90">{study.testimonial.role}</p>

@@ -95,8 +95,8 @@ export default function ContactPage() {
               Get in <span className="text-gradient">Touch</span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-              Have a project in mind? Let's discuss how we can help you achieve your goals. 
-              Fill out the form below and we'll get back to you within 24 hours.
+              Have a project in mind? Let&apos;s discuss how we can help you achieve your goals. 
+              Fill out the form below and we&apos;ll get back to you within 24 hours.
             </p>
           </motion.div>
         </div>

@@ -275,7 +275,7 @@ export default function BlogPostPage({ params }: Props) {
                 Ready to Start Your Project?
               </h2>
               <p className="text-lg mb-8 opacity-90">
-                Let's turn your ideas into reality with our expert team
+                Let&apos;s turn your ideas into reality with our expert team
               </p>
               <Link
                 href="/contact"

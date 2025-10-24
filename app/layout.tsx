@@ -25,6 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="dark">
       <head>
+        <link rel="icon" href="/logo.ico" />
+        <link rel="shortcut icon" href="/logo.ico" />
+        <link rel="apple-touch-icon" href="/logo.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

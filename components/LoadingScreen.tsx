@@ -48,7 +48,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
     }, 300)
 
     return () => clearInterval(sectionInterval)
-  }, [])
+  }, [sections])
 
   return (
     <AnimatePresence>
