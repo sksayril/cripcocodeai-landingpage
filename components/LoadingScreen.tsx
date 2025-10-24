@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import AnimatedLogo from './AnimatedLogo'
 
@@ -13,15 +13,16 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
   const [currentSection, setCurrentSection] = useState('')
   const [isComplete, setIsComplete] = useState(false)
 
+  const sections = useMemo(() => [
+    'Initializing...',
+    'Loading Components...',
+    'Preparing Animations...',
+    'Optimizing Performance...',
+    'Finalizing Experience...',
+    'Ready!'
+  ], [])
+
   useEffect(() => {
-    const sections = [
-      'Initializing...',
-      'Loading Components...',
-      'Preparing Animations...',
-      'Optimizing Performance...',
-      'Finalizing Experience...',
-      'Ready!'
-    ]
     const interval = setInterval(() => {
       setProgress(prev => {
         if (prev >= 100) {
